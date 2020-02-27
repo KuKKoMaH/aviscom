@@ -1,4 +1,4 @@
-import initSlider  from '../../js/initSlider';
+import initSlider from '../../js/initSlider';
 
 initSlider('.catalogMenu__slider', {
   slidesPerView: 1,

@@ -3,6 +3,8 @@
 
   .rub
     margin-right: 8px
+    display: inline-block;
+    vertical-align: middle;
 
   &__aside
     width: 100%
@@ -46,7 +48,6 @@
   &__price
     position: absolute;
     bottom: 35px
-    padding-bottom: 15px
     left: 25px
     right: 25px
     color: #ffffff
@@ -57,11 +58,18 @@
     //align-items center
     //justify-content center
     text-align: center;
-    border-bottom: 1px dashed rgba(#fff, .4);
 
     &--dark
       color: #1a1a1a
-      border-bottom: 1px dashed rgba(#1a1a1a, .4);
+      .catalogForm__priceTop
+        border-bottom: 1px dashed rgba(#1a1a1a, .4);
+
+  &__priceTop
+    padding-bottom: 15px
+    border-bottom: 1px dashed rgba(#fff, .4);
+
+  &__priceBottom
+    padding-top: 15px
 
   //&__content
   //  flex: 1

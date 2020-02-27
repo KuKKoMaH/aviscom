@@ -11,7 +11,7 @@ import './js/popups';
 // import './js/paroller';
 // import './js/smoke';
 // import './js/tabs';
-// import './js/saveUTM';
+import './js/saveUTM';
 import './modules/header/header';
 // import './modules/team/team';
 // import './modules/problems/problems';
