@@ -51,7 +51,7 @@
     "countup.js": "^2.0.4",
     "destyle.css": "^1.0.5",
     "intersection-observer": "^0.7.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery.maskedinput": "^1.4.1",
     "magnific-popup": "^1.1.0",
     "paroller.js": "^1.4.6",
